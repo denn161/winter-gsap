@@ -9,7 +9,8 @@
    const charsEls = splitText.chars
 
    tween.from('header',1,{
-       x:'100%'
+       x:'100%',
+       delay:2
    }).from('.header__line',{
        y:'-100%'
    }).from('.header-nav',{
